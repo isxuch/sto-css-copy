@@ -520,3 +520,67 @@ body {
 .layui-select-tips .multiOption:hover {
     color: #EC6800;
 }
+
+
+/* 搜索条件样式 */
+
+.layui-select-title{
+    position: relative;
+}
+.layui-select-title::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 30px;
+    width: 1px;
+    height: 100%;
+    background: #e6e6e6;
+}
+.layui-form-selected>.layui-select-title::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 30px;
+    width: 1px;
+    height: 100%;
+    background: #c9c9c9;
+}
+.search-position{
+    display: inline-block;
+    position: absolute;
+    top: 6px;
+    right: 7px;
+}
+.search-position-2{
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: 7px;
+}
+
+/*文件上传样式*/
+
+.file-name-box{
+    width: 190px;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 10px;
+    word-break: break-all;
+    overflow: hidden;
+    border: 1px solid #e6e6e6;
+    display: inline-block;
+}
+.upload-btn{
+    height: 35px;
+    line-height: 34px;
+    padding: 0 10px;
+    background: red;
+    display: inline-block;
+}
+.upload-btn{
+    margin-top: -28px;
+    margin-left: 10px;
+}
+.upload-mt10{
+    margin-top: 10px;
+}
